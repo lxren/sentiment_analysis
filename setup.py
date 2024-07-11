@@ -7,5 +7,5 @@ setup(
     description="Conduct sentiment analysis with pre-trained transformer model (BERT tokenizer)",
     author='Lily Ren',
     license='MIT',
-    install_requires=['pandas','numpy','mlcroissant','tensorflow_datasets','scikit-learn','argparse','matplotlib','seaborn','transformers[torch]','datasets']
+    install_requires=['pandas','numpy','mlcroissant','tensorflow_datasets','scikit-learn','argparse','matplotlib','seaborn','transformers','datasets']
 )

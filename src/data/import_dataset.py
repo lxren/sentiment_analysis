@@ -11,7 +11,7 @@ def import_dataset():
     print(df.head())
 
     folder_path = 'data/external'
-    IMDB_dataset_export = os.path.join(folder_path, 'exported_data.csv')
+    IMDB_dataset_export = os.path.join(folder_path, 'IMDB_data.csv')
     df.to_csv(IMDB_dataset_export, index=False)
     
     print(f"Data exported to {IMDB_dataset_export}")
