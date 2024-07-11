@@ -16,3 +16,7 @@ pip install .
 ```bash
 python ./src/data/import_dataset.py
 ```
+### Tokenize text using BERT Tokenizer
+```bash
+python ./src/main.py
+```
