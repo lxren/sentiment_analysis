@@ -12,7 +12,7 @@ Optional: I recommend the use of a virtual environment (venv) when running the c
 ```bash
 pip install .
 ```
-### Import dataset from Hugging Face
+### Import IMDB dataset from Hugging Face
 ```bash
 python ./src/data/import_dataset.py
 ```
