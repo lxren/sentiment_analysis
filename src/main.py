@@ -5,6 +5,8 @@ import absl.logging
 
 sys.dont_write_bytecode = True
 absl.logging.set_verbosity(absl.logging.ERROR)
+from data.build_dataset import build_dataset
+
 
 #setup global dataframe variable
 

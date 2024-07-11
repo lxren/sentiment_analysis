@@ -16,4 +16,7 @@ pip install .
 ```bash
 python ./src/data/import_dataset.py
 ```
-
+### Build dataset from csv
+```bash
+python ./src/data/build_dataset.py
+```
